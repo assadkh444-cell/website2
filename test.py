@@ -2,8 +2,7 @@ def print_board(board):
     print("Current board:")
     print("  0 1 2")
     for i, row in enumerate(board):
-        print(f"{i} {' '.join(row)}")
-print("hi")
+        print(f"{i} {' '.join(row)})
 
 def check_winner(board):
     # check rows
